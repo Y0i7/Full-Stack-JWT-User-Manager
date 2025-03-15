@@ -103,15 +103,11 @@ Este proyecto es una aplicación web fullstack que permite a los usuarios regist
 - **Backend**: 
   - Configura propiedades sensibles en `application.properties` (clave JWT, URL de BD, credenciales).
   - Ejemplo: `jwt.secret=tu_clave_secreta_aqui`.
-- **Frontend**: 
-  - Crea un archivo `.env` con la variable `REACT_APP_API_URL` apuntando a tu backend.
   
 **Si omites este paso**, la aplicación podría:
 - Fallar en la autenticación JWT.
 - No conectarse a la base de datos.
 - Mostrar errores inesperados en producción.
-
-👉 **Ver sección [Variables de Entorno](#🔒-variables-de-entorno) para detalles**.
 
 ### 📌 Backend (Spring Boot)
 
